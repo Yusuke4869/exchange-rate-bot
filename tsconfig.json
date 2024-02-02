@@ -13,10 +13,6 @@
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "newLine": "lf",
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"],
-    },
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"],
