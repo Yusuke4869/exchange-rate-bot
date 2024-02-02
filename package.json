@@ -24,6 +24,9 @@
   "volta": {
     "node": "20.11.0"
   },
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
