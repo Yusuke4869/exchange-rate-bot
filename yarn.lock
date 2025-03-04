@@ -341,21 +341,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^22.0.0":
   version: 22.13.9
   resolution: "@types/node@npm:22.13.9"
   dependencies:
     undici-types: "npm:~6.20.0"
   checksum: 10c0/eb6acd04169a076631dcaab712128d492cd17a1b3f10daae4a377f3d439c860c3cd3e32f4ef221671f56183b976ac7c4089f4193457314a88675ead4663438a4
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^20.0.0":
-  version: 20.17.23
-  resolution: "@types/node@npm:20.17.23"
-  dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10c0/4f7da7383ee8516b2e580d772a196fd76487670bd9d32a296621c5df63b077cc7d06c2a0040885b3e4a28c1751f9ad3d5ed55cff15d50b707e3d454993bfe33a
   languageName: node
   linkType: hard
 
@@ -1165,7 +1156,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "exchange-rate-bot@workspace:."
   dependencies:
-    "@types/node": "npm:^20.0.0"
+    "@types/node": "npm:^22.0.0"
     "@typescript-eslint/eslint-plugin": "npm:^6.0.0"
     "@typescript-eslint/parser": "npm:^6.0.0"
     discord.js: "npm:^14.14.1"
@@ -2820,13 +2811,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/5448a08e595cc558ab321e49d4cac64fb43d1fa106584f6ff9a8d8e592111b373a995a1d5c7f3046211c8a37201eb6d0f1566f15cdb7a62a5e3be01d087848e2
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~6.19.2":
-  version: 6.19.6
-  resolution: "undici-types@npm:6.19.6"
-  checksum: 10c0/9b2264c5700e7169c6c62c643aac56cd8984c5fd7e18ed31ff11780260e137f6340dee8317a2e6e0ae3c49f5e5ef6fa577ea07193cbaa535265cba76a267cae9
   languageName: node
   linkType: hard
 
